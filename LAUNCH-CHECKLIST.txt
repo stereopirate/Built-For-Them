@@ -1,0 +1,29 @@
+BUILT FOR THEM — LAUNCH CHECKLIST
+
+BEFORE UPLOAD
+[ ] Replace hello@example.com in contact.html
+[ ] Read the home, about, project, and safety pages
+[ ] Confirm you are comfortable publishing the three starter projects
+
+GITHUB
+[ ] Create repository named built-for-them
+[ ] Upload CONTENTS of built-for-them-v1 folder
+[ ] Confirm index.html is at repository top level
+[ ] Commit files
+
+VERCEL
+[ ] Import built-for-them repository
+[ ] Framework preset: Other
+[ ] Leave build command blank
+[ ] Leave output directory blank
+[ ] Deploy
+[ ] Open live address on phone
+[ ] Test Menu button
+[ ] Test all navigation links
+[ ] Test project filters
+
+AFTER DEPLOYMENT
+[ ] Replace YOUR-PROJECT.vercel.app in robots.txt
+[ ] Replace YOUR-PROJECT.vercel.app in sitemap.xml
+[ ] Test contact email button
+[ ] Share privately with 2–3 reviewers before public launch
