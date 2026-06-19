@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Built For Them logo mark</title>
+  <desc id="desc">A simple teal platform with an orange adjustable support.</desc>
+  <rect width="128" height="128" rx="28" fill="#F7F3EC"/>
+  <path d="M24 82h80v18H24z" fill="#00A58F"/>
+  <path d="M38 68h52v14H38z" fill="#00A58F"/>
+  <path d="M48 40h32v28H48z" fill="#F5800A"/>
+  <circle cx="64" cy="54" r="7" fill="#F7F3EC"/>
+  <path d="M90 48h14v34H90z" fill="#00A58F"/>
+  <path d="M97 38v20M87 48h20" stroke="#F5800A" stroke-width="8" stroke-linecap="round"/>
+</svg>

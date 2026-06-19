@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 520" role="img" aria-labelledby="title desc">
+<title id="title">Adaptive equipment workshop illustration</title>
+<desc id="desc">A warm workshop scene showing a switch mount, therapy bench, tools, and build plans.</desc>
+<rect width="760" height="520" rx="36" fill="#EAF7F4"/>
+<rect x="70" y="90" width="620" height="330" rx="22" fill="#FFFDF8" stroke="#153A36" stroke-width="4"/>
+<rect x="110" y="310" width="540" height="28" rx="8" fill="#9A6645"/>
+<rect x="145" y="338" width="32" height="82" fill="#75482F"/>
+<rect x="585" y="338" width="32" height="82" fill="#75482F"/>
+<path d="M180 270h178v28H180z" fill="#00A58F"/>
+<path d="M205 220h128v50H205z" fill="#F5800A"/>
+<path d="M215 298l-16 46h28l10-46M320 298l10 46h28l-16-46" fill="#153A36"/>
+<circle cx="465" cy="230" r="54" fill="#F5800A"/>
+<circle cx="465" cy="230" r="28" fill="#FFFDF8"/>
+<rect x="456" y="284" width="18" height="56" rx="9" fill="#153A36"/>
+<path d="M465 340h95" stroke="#153A36" stroke-width="14" stroke-linecap="round"/>
+<path d="M560 340v-74" stroke="#153A36" stroke-width="14" stroke-linecap="round"/>
+<rect x="525" y="188" width="80" height="72" rx="10" fill="#EAF7F4" stroke="#153A36" stroke-width="4"/>
+<path d="M540 208h48M540 226h38M540 244h44" stroke="#00A58F" stroke-width="6" stroke-linecap="round"/>
+<path d="M110 148h155" stroke="#153A36" stroke-width="10" stroke-linecap="round"/>
+<path d="M110 178h115" stroke="#00A58F" stroke-width="8" stroke-linecap="round"/>
+<circle cx="624" cy="146" r="26" fill="#00A58F"/>
+<path d="M612 146l8 8 17-18" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
