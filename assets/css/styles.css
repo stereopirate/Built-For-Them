@@ -141,3 +141,31 @@ p { margin-top: 0; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
 }
+
+/* Published project details */
+.published { background: #dff6e8; color: #17613d; }
+.project-detail-hero { padding-bottom: 3.5rem; }
+.project-hero-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 440px); gap: 3rem; align-items: center; }
+.project-photo { margin: 0; }
+.project-photo img { width: 100%; border-radius: var(--radius); box-shadow: var(--shadow); aspect-ratio: 3 / 4; object-fit: cover; }
+.project-photo figcaption { color: var(--ink-soft); font-size: .86rem; margin-top: .7rem; }
+.hero-project-photo { max-width: 440px; justify-self: end; }
+.project-stats { background: var(--cream); border-block: 1px solid var(--line); }
+.stats-4 { grid-template-columns: repeat(4, 1fr); margin-top: 0; }
+.compact-grid { margin: 1.5rem 0 2.5rem; }
+.compact-grid .card:hover, .download-card:hover { transform: none; box-shadow: 0 8px 24px rgba(21,58,54,.06); }
+.download-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; margin: 1.5rem 0 2.5rem; }
+.download-card { display: flex; flex-direction: column; align-items: flex-start; }
+.download-card .button { margin-top: auto; }
+.project-card-image { width: 100%; height: 100%; min-height: 190px; object-fit: cover; }
+
+@media (max-width: 850px) {
+  .project-hero-grid { grid-template-columns: 1fr; }
+  .hero-project-photo { max-width: 620px; justify-self: start; }
+  .stats-4 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 580px) {
+  .download-grid, .stats-4 { grid-template-columns: 1fr; }
+  .project-detail-hero { padding-top: 3rem; }
+}
