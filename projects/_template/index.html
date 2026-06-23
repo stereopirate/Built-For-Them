@@ -1,0 +1,136 @@
+<!--
+  TEMPLATE: copy this whole "_template" folder, rename the copy to your
+  project's slug (e.g. /projects/switch-mount/), then fill in every
+  [PLACEHOLDER]. Delete any optional section you don't need (each one is
+  marked "OPTIONAL" in an HTML comment). Delete this top comment block
+  when you're done. See CONTRIBUTING.md for the full add-a-project workflow.
+-->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>[PROJECT NAME] | Built For Them</title>
+  <meta name="description" content="[ONE-SENTENCE PROJECT DESCRIPTION FOR SEARCH ENGINES]">
+  <link rel="icon" href="/assets/images/logo-icon.jpg"><link rel="apple-touch-icon" href="/assets/images/logo-badge.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Montserrat:wght@700;800;900&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <meta property="og:type" content="website"><meta property="og:title" content="[PROJECT NAME] | Built For Them"><meta property="og:description" content="[ONE-SENTENCE PROJECT DESCRIPTION]"><meta property="og:image" content="https://built-for-them.vercel.app/assets/images/[PROJECT-HERO-IMAGE].jpg"><meta property="og:url" content="https://built-for-them.vercel.app/projects/[PROJECT-SLUG]/">
+  <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="[PROJECT NAME] | Built For Them"><meta name="twitter:description" content="[ONE-SENTENCE PROJECT DESCRIPTION]"><meta name="twitter:image" content="https://built-for-them.vercel.app/assets/images/[PROJECT-HERO-IMAGE].jpg">
+</head>
+<body>
+<header class="site-header">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="logo" href="/"><img src="/assets/images/logo-horizontal.jpg" alt="Built For Them logo"></a>
+    <div class="nav-links"><a href="/#about">About</a><a href="/projects/">Projects</a><a href="/#help">Get Involved</a><a class="button" href="mailto:hello@builtforthem.org">Contact</a></div>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <div>
+      <div class="eyebrow">[BFT-XXX] · DIY adaptive woodworking plan</div>
+      <h1>[PROJECT NAME]</h1>
+      <p class="script">Build with care. Share with love.</p>
+      <p class="lede">[ONE TO TWO SENTENCE SUMMARY OF WHAT THIS PROJECT IS AND WHO IT'S FOR.]</p>
+      <div class="badges"><span class="badge navy">[DIFFICULTY, e.g. Beginner woodworking]</span><span class="badge orange">[ESTIMATED COST, e.g. Approx. $X-$Y]</span><span class="badge">[ESTIMATED TIME, e.g. One weekend]</span></div>
+      <div class="hero-actions"><a class="button" href="/assets/downloads/[PROJECT-SLUG]-build-guide.pdf">Download build guide PDF</a><a class="button ghost" href="#build-plan">Read the full plan</a></div>
+      <!-- OPTIONAL: remove this .stats block if the project doesn't have simple headline dimensions/specs -->
+      <div class="stats"><div class="stat"><b>[SIZE]</b><span>[LABEL]</span></div><div class="stat"><b>[SIZE]</b><span>[LABEL]</span></div><div class="stat"><b>[SIZE]</b><span>[LABEL]</span></div></div>
+    </div>
+    <figure class="hero-card"><img src="/assets/images/[PROJECT-HERO-IMAGE].jpg" alt="[DESCRIBE THE PHOTO]"><figcaption class="caption">[PHOTO CAPTION]</figcaption></figure>
+  </section>
+
+  <!-- OPTIONAL: remove this whole section if the project doesn't need a dedicated safety callout -->
+  <section class="section narrow">
+    <div class="callout">
+      <h2>Important safety note</h2>
+      <p>[SAFETY SUMMARY SENTENCE — e.g. this is a DIY plan, not a certified medical device, confirm fit/use with a clinician.]</p>
+      <ul><li>[SAFETY NOTE]</li><li>[SAFETY NOTE]</li><li>[SAFETY NOTE]</li></ul>
+    </div>
+  </section>
+
+  <!-- OPTIONAL: remove this whole section if you don't have real product photos yet -->
+  <section id="gallery" class="section">
+    <div class="eyebrow">Actual product photos</div>
+    <h2>[GALLERY HEADLINE]</h2>
+    <p class="lede">[ONE SENTENCE INTRO TO THE GALLERY.]</p>
+    <div class="gallery">
+      <img src="/assets/images/[PROJECT-PHOTO-1].jpg" alt="[DESCRIBE PHOTO]">
+      <img src="/assets/images/[PROJECT-PHOTO-2].jpg" alt="[DESCRIBE PHOTO]">
+      <img src="/assets/images/[PROJECT-PHOTO-3].jpg" alt="[DESCRIBE PHOTO]">
+    </div>
+  </section>
+
+  <section id="build-plan" class="section">
+    <div class="grid two">
+      <div>
+        <div class="eyebrow">Full build plan</div>
+        <h2>Overview</h2>
+        <p class="lede">[ONE TO TWO SENTENCE OVERVIEW OF MATERIALS/CONSTRUCTION APPROACH.]</p>
+      </div>
+      <div class="panel">
+        <h3>Project details</h3>
+        <p><strong>Finished size:</strong> [SIZE]</p>
+        <p><strong>Difficulty:</strong> [DIFFICULTY]</p>
+        <p><strong>Estimated cost:</strong> [COST]</p>
+        <p><strong>Estimated time:</strong> [TIME]</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="materials" class="section">
+    <div class="grid two">
+      <div>
+        <h2>Materials</h2>
+        <div class="table-wrap"><table><thead><tr><th>Item</th><th>Notes</th></tr></thead><tbody><tr><td><strong>[MATERIAL]</strong></td><td>[NOTE]</td></tr></tbody></table></div>
+      </div>
+      <div>
+        <h2>Tools</h2>
+        <div class="card accent"><ul><li>[TOOL]</li><li>[TOOL]</li></ul></div>
+        <p class="caption">[OPTIONAL NOTE ABOUT TOOL SUBSTITUTIONS.]</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Cut list</h2>
+    <div class="table-wrap"><table><thead><tr><th>Part</th><th>Qty</th><th>Size</th><th>Notes</th></tr></thead><tbody><tr><td><strong>[PART]</strong></td><td>[QTY]</td><td>[SIZE]</td><td>[NOTE]</td></tr></tbody></table></div>
+  </section>
+
+  <!-- OPTIONAL: remove this extra detail panel if the project doesn't need a callout beyond the cut list (e.g. a slot pattern, wiring diagram, etc.) -->
+  <section class="section">
+    <div class="grid two">
+      <div class="panel">
+        <h2>[EXTRA DETAIL HEADLINE]</h2>
+        <p>[EXTRA DETAIL EXPLANATION.]</p>
+      </div>
+      <img src="/assets/images/[EXTRA-DETAIL-IMAGE].jpg" alt="[DESCRIBE PHOTO]" style="border-radius:24px;border:1px solid var(--line);box-shadow:var(--shadow)">
+    </div>
+  </section>
+
+  <section class="section narrow">
+    <h2>Assembly steps</h2>
+    <div class="steps">
+      <div class="step"><div><h3>[STEP TITLE]</h3><p>[STEP DESCRIPTION]</p></div></div>
+      <div class="step"><div><h3>[STEP TITLE]</h3><p>[STEP DESCRIPTION]</p></div></div>
+      <div class="step"><div><h3>[STEP TITLE]</h3><p>[STEP DESCRIPTION]</p></div></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="grid three">
+      <div class="card accent"><h3>Build it yourself</h3><p>Use the plan on this page or print the PDF for the shop. Confirm measurements before cutting and test fit before finishing.</p></div>
+      <div class="card warn"><h3>Ask for help</h3><p>If you do not have the tools or comfort level, ask a local maker, woodworker, or volunteer to help build from the PDF.</p></div>
+      <div class="card"><h3>Share improvements</h3><p>Send photos, notes, and safety observations back to Built For Them so future families get a better plan.</p></div>
+    </div>
+    <div style="display:flex;align-items:center;gap:14px;margin-top:24px">
+      <img src="/assets/images/logo-badge.jpg" alt="Built For Them badge" style="height:60px;width:60px;border-radius:14px;border:1px solid var(--line);box-shadow:var(--shadow)">
+      <p class="caption">Every Built For Them plan is reviewed and shared by the same small team behind this badge.</p>
+    </div>
+  </section>
+</main>
+<footer class="footer"><div class="footer-inner"><div><strong>Built For Them</strong><p>Build with care. Share with love.</p></div><div class="nav-links"><a href="/#about">About</a><a href="/projects/">Projects</a><a href="/#help">Get Involved</a><a href="mailto:hello@builtforthem.org">hello@builtforthem.org</a></div><img src="/assets/images/logo-stacked.jpg" alt="Built For Them logo"></div></footer>
+</body>
+</html>
