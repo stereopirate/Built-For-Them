@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+Disallow: /projects/_template/
 Sitemap: https://built-for-them.vercel.app/sitemap.xml

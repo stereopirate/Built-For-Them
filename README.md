@@ -1,30 +1,21 @@
-# Built For Them - complete replacement repository
+# Built For Them
 
-This folder is ready to replace the entire contents of the current GitHub repository.
+A free, practical DIY adaptive equipment site. Pure static HTML/CSS — no framework, package manager, or build command required.
 
 ## What is public
 
-- Homepage
+- Homepage (`/`)
+- Projects directory (`/projects/`)
 - Adjustable Therapy Bench project page
 - Downloadable therapy bench PDF guide
 
 ## What is not public-ready
 
-The switch mount and future seating/mobility concepts are labeled **Work in progress** or **Concept only**. They do not link to plans and are not presented as usable equipment.
+The switch mount and future seating/mobility concepts are not yet published. They have no pages and are not linked from anywhere on the site.
 
-## Replace the GitHub repository
+## Adding a new project
 
-1. Download and unzip `built-for-them-complete-site.zip`.
-2. Open the existing GitHub repository.
-3. Delete the current repository files and folders.
-4. Upload everything inside the unzipped `built-for-them-complete-site` folder.
-5. Commit directly to the branch connected to Vercel, usually `main`.
-6. Wait for the Vercel deployment to complete.
-7. Open the live site and test:
-   - Homepage
-   - Therapy bench project page
-   - PDF download
-   - Mobile menu
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full step-by-step workflow, including the project template, the shared header/footer markup, and the CSS classes available to reuse.
 
 ## Important contact setting
 
@@ -32,7 +23,11 @@ The site currently uses:
 
 `hello@builtforthem.org`
 
-Change that address in `index.html` and `projects/adjustable-therapy-bench/index.html` if that mailbox does not exist.
+That address is referenced as a root-relative `mailto:` link from every page's header/footer. Update it everywhere if that mailbox changes.
+
+## Path convention
+
+All internal links use root-relative paths (`/assets/...`, `/projects/...`), which Vercel resolves correctly thanks to `cleanUrls`/`trailingSlash` in `vercel.json`. Root-relative paths will **not** resolve if you open an HTML file directly via `file://` — preview locally with `npx serve .` or use a Vercel PR preview deployment instead.
 
 ## Site structure
 
@@ -41,9 +36,10 @@ Change that address in `index.html` and `projects/adjustable-therapy-bench/index
 - `robots.txt`
 - `sitemap.xml`
 - `vercel.json`
+- `CONTRIBUTING.md`
 - `assets/css/styles.css`
 - `assets/images/`
 - `assets/downloads/adjustable-therapy-bench-build-guide.pdf`
+- `projects/index.html` — directory page listing all published projects
 - `projects/adjustable-therapy-bench/index.html`
-
-No framework, package manager, or build command is required.
+- `projects/_template/index.html` — copy-paste starting point for new projects (excluded from the sitemap and from search indexing)
