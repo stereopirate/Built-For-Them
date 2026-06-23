@@ -37,12 +37,13 @@ Change that address in `index.html` and `projects/adjustable-therapy-bench/index
 ## Site structure
 
 - `index.html`
-- `styles.css`
 - `404.html`
 - `robots.txt`
 - `sitemap.xml`
 - `vercel.json`
-- `assets/`
+- `assets/css/styles.css`
+- `assets/images/`
+- `assets/downloads/adjustable-therapy-bench-build-guide.pdf`
 - `projects/adjustable-therapy-bench/index.html`
 
 No framework, package manager, or build command is required.
