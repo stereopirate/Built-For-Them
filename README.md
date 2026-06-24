@@ -8,6 +8,7 @@ A free, practical DIY adaptive equipment site. Pure static HTML/CSS — no frame
 - Projects directory (`/projects/`)
 - Adjustable Therapy Bench project page
 - Downloadable therapy bench PDF guide
+- Resources directory (`/resources/`) — curated links to outside organizations' free plans (3D-printed assistive tech, switch access, etc.) that BFT doesn't build itself
 
 ## What is not public-ready
 
@@ -43,3 +44,4 @@ All internal links use root-relative paths (`/assets/...`, `/projects/...`), whi
 - `projects/index.html` — directory page listing all published projects
 - `projects/adjustable-therapy-bench/index.html`
 - `projects/_template/index.html` — copy-paste starting point for new projects (excluded from the sitemap and from search indexing)
+- `resources/index.html` — curated outside links for resources BFT doesn't build itself
