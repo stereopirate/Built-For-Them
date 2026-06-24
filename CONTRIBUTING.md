@@ -59,7 +59,8 @@ Paste this exact header into every new page, right after `<body>`:
 <header class="site-header">
   <nav class="nav" aria-label="Main navigation">
     <a class="logo" href="/"><img src="/assets/images/logo-horizontal.jpg" alt="Built For Them logo"></a>
-    <div class="nav-links"><a href="/#about">About</a><a href="/projects/">Projects</a><a href="/#help">Get Involved</a><a class="button" href="mailto:hello@builtforthem.org">Contact</a></div>
+    <div class="nav-links"><a href="/#about">About</a><a href="/projects/">Projects</a><a href="/#help">Get Involved</a><a class="button" href="mailto:builtforthemdiy@gmail.com">Contact</a></div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
   </nav>
 </header>
 ```
@@ -67,7 +68,13 @@ Paste this exact header into every new page, right after `<body>`:
 And this exact footer right before `</body>`:
 
 ```html
-<footer class="footer"><div class="footer-inner"><div><strong>Built For Them</strong><p>Build with care. Share with love.</p></div><div class="nav-links"><a href="/#about">About</a><a href="/projects/">Projects</a><a href="/#help">Get Involved</a><a href="mailto:hello@builtforthem.org">hello@builtforthem.org</a></div><img src="/assets/images/logo-stacked.jpg" alt="Built For Them logo"></div></footer>
+<footer class="footer"><div class="footer-inner"><div><strong>Built For Them</strong><p>Build with care. Share with love.</p></div><div class="nav-links"><a href="/#about">About</a><a href="/projects/">Projects</a><a href="/#help">Get Involved</a><a href="mailto:builtforthemdiy@gmail.com">builtforthemdiy@gmail.com</a></div><img src="/assets/images/logo-stacked.jpg" alt="Built For Them logo"></div></footer>
+```
+
+The `.nav-toggle` button is the mobile hamburger menu — it's hidden on desktop and only shown below 850px, where it reveals `.nav-links` as a dropdown. It's powered by the shared script `/assets/js/nav.js`, which must also be added right before `</body>` (after the footer) on every new page:
+
+```html
+<script src="/assets/js/nav.js" defer></script>
 ```
 
 Don't improvise variations on this markup — page-local anchor links (like `#build-plan` or `#materials`) belong as a secondary row under that page's `<h1>`, not inside `.site-header`.
@@ -85,7 +92,7 @@ Don't improvise variations on this markup — page-local anchor links (like `#bu
 
 Don't invent new classes before checking if one of these already does the job:
 
-- `.site-header`, `.nav`, `.logo`, `.nav-links` — header/nav
+- `.site-header`, `.nav`, `.logo`, `.nav-links`, `.nav-toggle` — header/nav, including the mobile hamburger toggle
 - `.button`, `.button.secondary`, `.button.ghost` — buttons/links styled as buttons
 - `.hero`, `.hero-actions`, `.hero-card`, `.stats`, `.stat` — page-top hero layout
 - `.eyebrow`, `.script`, `.lede` — small label, handwritten-style accent line, intro paragraph

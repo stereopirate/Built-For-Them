@@ -21,7 +21,7 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the full step-by-step workflow, inc
 
 The site currently uses:
 
-`hello@builtforthem.org`
+`builtforthemdiy@gmail.com`
 
 That address is referenced as a root-relative `mailto:` link from every page's header/footer. Update it everywhere if that mailbox changes.
 
