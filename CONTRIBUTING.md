@@ -58,7 +58,7 @@ Paste this exact header into every new page, right after `<body>`:
 ```html
 <header class="site-header">
   <nav class="nav" aria-label="Main navigation">
-    <a class="logo" href="/"><img src="/assets/images/logo-horizontal.jpg" alt="Built For Them logo"></a>
+    <a class="logo" href="/"><img src="/assets/images/logo-horizontal.png" alt="Built For Them logo"></a>
     <div class="nav-links"><a href="/#about">About</a><a href="/projects/">Projects</a><a href="/#help">Get Involved</a><a class="button" href="mailto:builtforthemdiy@gmail.com">Contact</a></div>
     <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
   </nav>
@@ -68,7 +68,7 @@ Paste this exact header into every new page, right after `<body>`:
 And this exact footer right before `</body>`:
 
 ```html
-<footer class="footer"><div class="footer-inner"><div><strong>Built For Them</strong><p>Build with care. Share with love.</p></div><div class="nav-links"><a href="/#about">About</a><a href="/projects/">Projects</a><a href="/#help">Get Involved</a><a href="mailto:builtforthemdiy@gmail.com">builtforthemdiy@gmail.com</a></div><img src="/assets/images/logo-stacked.jpg" alt="Built For Them logo"></div></footer>
+<footer class="footer"><div class="footer-inner"><div><strong>Built For Them</strong><p>Build with care. Share with love.</p></div><div class="nav-links"><a href="/#about">About</a><a href="/projects/">Projects</a><a href="/#help">Get Involved</a><a href="mailto:builtforthemdiy@gmail.com">builtforthemdiy@gmail.com</a></div><img src="/assets/images/logo-stacked.png" alt="Built For Them logo"></div></footer>
 ```
 
 The `.nav-toggle` button is the mobile hamburger menu — it's hidden on desktop and only shown below 850px, where it reveals `.nav-links` as a dropdown. It's powered by the shared script `/assets/js/nav.js`, which must also be added right before `</body>` (after the footer) on every new page:
@@ -83,10 +83,10 @@ Don't improvise variations on this markup — page-local anchor links (like `#bu
 
 | File | Use |
 |---|---|
-| `logo-horizontal.jpg` | Header nav lockup on every page |
-| `logo-icon.jpg` | Favicon (`<link rel="icon">`) on every page |
-| `logo-badge.jpg` | Apple touch icon, and the small trust-seal graphic near the closing cards/PDF download on project pages |
-| `logo-stacked.jpg` | Footer brand mark on every page |
+| `logo-horizontal.png` | Header nav lockup on every page |
+| `logo-icon.png` | Favicon (`<link rel="icon">`) on every page |
+| `logo-badge.png` | Apple touch icon, and the small trust-seal graphic near the closing cards/PDF download on project pages |
+| `logo-stacked.png` | Footer brand mark on every page |
 
 ## Reusable CSS classes
 
