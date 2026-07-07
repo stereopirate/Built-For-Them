@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="500" viewBox="0 0 700 500" role="img" aria-label="Placeholder photo — final build photo coming soon">
+<rect width="700" height="500" fill="#FFF3E2"/>
+<rect x="14" y="14" width="672" height="472" rx="24" fill="none" stroke="#082E63" stroke-width="3" stroke-dasharray="12 10"/>
+<g transform="translate(350,205)">
+<circle r="48" fill="#008C95"/>
+<g fill="#fff">
+<rect x="-28" y="-14" width="56" height="38" rx="7"/>
+<rect x="-12" y="-26" width="24" height="14" rx="3"/>
+<circle cx="0" cy="7" r="13" fill="#008C95"/>
+</g>
+</g>
+<text x="350" y="278" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-weight="900" font-size="26" fill="#082E63">Photo placeholder</text>
+<text x="350" y="308" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#6b5f4c">Drilled outside-leg hole rows</text>
+</svg>
