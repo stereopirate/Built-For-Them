@@ -1,4 +1,10 @@
 {
   "cleanUrls": true,
-  "trailingSlash": true
+  "trailingSlash": true,
+  "redirects": [
+    { "source": "/projects/adjustable-therapy-bench", "destination": "/projects/adjustable-therapy-bench-v2", "permanent": true },
+    { "source": "/projects/adjustable-therapy-bench-v1-basic", "destination": "/projects/adjustable-therapy-bench-v1", "permanent": true },
+    { "source": "/assets/downloads/adjustable-therapy-bench-build-guide.pdf", "destination": "/assets/downloads/adjustable-therapy-bench-v2-build-guide.pdf", "permanent": true },
+    { "source": "/assets/downloads/adjustable-therapy-bench-v1-basic-build-guide.pdf", "destination": "/assets/downloads/adjustable-therapy-bench-v1-build-guide.pdf", "permanent": true }
+  ]
 }
