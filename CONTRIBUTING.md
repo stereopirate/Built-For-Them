@@ -71,10 +71,11 @@ And this exact footer right before `</body>`:
 <footer class="footer"><div class="footer-inner"><div><strong>Built For Them</strong><p>Build with care. Share with love.</p></div><div class="nav-links"><a href="/about/">About</a><a href="/projects/">Projects</a><a href="/resources/">Resources</a><a href="/get-involved/">Get Involved</a><a href="mailto:builtforthemdiy@gmail.com">builtforthemdiy@gmail.com</a></div><img src="/assets/images/logo-stacked.png" alt="Built For Them logo"></div></footer>
 ```
 
-The `.nav-toggle` button is the mobile hamburger menu — it's hidden on desktop and only shown below 850px, where it reveals `.nav-links` as a dropdown. It's powered by the shared script `/assets/js/nav.js`, which must also be added right before `</body>` (after the footer) on every new page:
+The `.nav-toggle` button is the mobile hamburger menu — it's hidden on desktop and only shown below 850px, where it reveals `.nav-links` as a dropdown. It's powered by the shared script `/assets/js/nav.js`, which must also be added right before `</body>` (after the footer) on every new page, followed by the Vercel Analytics script tag:
 
 ```html
 <script src="/assets/js/nav.js" defer></script>
+<script defer src="/_vercel/insights/script.js"></script>
 ```
 
 Don't improvise variations on this markup — page-local anchor links (like `#build-plan` or `#materials`) belong as a secondary row under that page's `<h1>`, not inside `.site-header`.
