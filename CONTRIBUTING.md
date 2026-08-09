@@ -16,13 +16,13 @@ Delete any section marked `OPTIONAL` in an HTML comment that doesn't apply to yo
 
 ## 2. Add your assets
 
-- Photos go in `/assets/images/` (flat, no subfolders — match the existing `bench-*.jpg` naming style, e.g. `switch-mount-hero.jpg`).
+- Photos go in `/assets/images/` (flat, no subfolders — named `<slug>-*.jpg`, e.g. `switch-mount-hero.jpg`).
 - The build guide PDF goes in `/assets/downloads/`, named `<slug>-build-guide.pdf`.
 - Reference both with root-relative paths (see below) — never relative paths like `../assets/...`.
 
 ## 3. List it on the projects directory
 
-Add a `.card` to the `.grid.three` in `/projects/index.html`, matching the existing Adjustable Therapy Bench card:
+Add a `.card` to the `.grid.three` in `/projects/index.html`, matching the existing Adaptive Positioning Bench card:
 
 ```html
 <div class="card">

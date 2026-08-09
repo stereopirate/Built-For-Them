@@ -1,6 +1,6 @@
 # Built For Them — Originals
 
-> **Note:** Sections 01 (Adjustable Therapy Bench) and 02 (Therapy Positioning Box Set — full specs/cut list version) are not yet included in this file. Their source content didn't exist anywhere in this repo or the project tracker when this file was created — add them from existing project documentation.
+> **Note:** Sections 01 (Adaptive Positioning Bench) and 02 (Therapy Positioning Box Set — full specs/cut list version) are not yet included in this file. Their source content didn't exist anywhere in this repo or the project tracker when this file was created — add them from existing project documentation.
 
 ## 03 — Adjustable Activity Table
 
