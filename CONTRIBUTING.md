@@ -68,7 +68,7 @@ Paste this exact header into every new page, right after `<body>`:
 And this exact footer right before `</body>`:
 
 ```html
-<footer class="footer"><div class="footer-inner"><div><strong>Built For Them</strong><p>Build with care. Share with love.</p></div><div class="nav-links"><a href="/about/">About</a><a href="/projects/">Projects</a><a href="/resources/">Resources</a><a href="/get-involved/">Get Involved</a><a href="mailto:builtforthemdiy@gmail.com">builtforthemdiy@gmail.com</a></div><img src="/assets/images/logo-stacked.png" alt="Built For Them logo"></div></footer>
+<footer class="footer"><div class="footer-inner"><div><strong>Built For Them</strong><p>Build with care. Share with love.</p></div><div class="nav-links"><a href="/about/">About</a><a href="/projects/">Projects</a><a href="/resources/">Resources</a><a href="/get-involved/">Get Involved</a><a href="/terms/">Terms</a><a href="mailto:builtforthemdiy@gmail.com">builtforthemdiy@gmail.com</a></div><img src="/assets/images/logo-stacked.png" alt="Built For Them logo"></div></footer>
 ```
 
 The `.nav-toggle` button is the mobile hamburger menu — it's hidden on desktop and only shown below 850px, where it reveals `.nav-links` as a dropdown. It's powered by the shared script `/assets/js/nav.js`, which must also be added right before `</body>` (after the footer) on every new page, followed by the Vercel Analytics script tag:
