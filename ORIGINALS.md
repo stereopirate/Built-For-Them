@@ -55,11 +55,11 @@
 - [ ] Export PDF
 - [ ] Upload as free download
 
-## Spin Board (DIY Astronaut Board)
+## Spin Board
 
 **Status:** 🟡 Prototype in progress
 
-**Purpose:** Floor-level spinning board for vestibular/sensory input, used with an adult turning the board and under therapist guidance. Our own version of the astronaut board used in OT sensory programs.
+**Purpose:** Floor-level spinning board for vestibular/sensory input, used with an adult turning the board and under therapist guidance. Original DIY design. Do not reference commercial product names on the site.
 
 **Built so far:** Solid pine board with rounded edges and two hand-hold cutouts; round pine spinner base underneath.
 
