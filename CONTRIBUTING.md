@@ -104,6 +104,6 @@ Don't invent new classes before checking if one of these already does the job:
 - `.table-wrap` + `<table>` — styled materials/cut-list tables
 - `.gallery` — photo grid (first image spans two rows)
 - `.steps`, `.step` — numbered assembly-step list
-- `.callout` — dark navy highlighted box (used for safety notices)
+- `.callout` — dark navy highlighted box (used for safety notices and feature sections like the homepage next-project preview; `.eyebrow`, `.script`, and nested `.card`s are restyled to stay readable on navy)
 - `.badges`, `.badge`, `.badge.orange`, `.badge.navy` — small pill labels
 - `.footer`, `.footer-inner` — site footer
