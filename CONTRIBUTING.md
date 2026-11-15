@@ -37,7 +37,7 @@ Do **not** add a card for a project that isn't actually built and published yet 
 
 ## 4. Add it to the sitemap
 
-Add `https://built-for-them.vercel.app/projects/<slug>/` as a new `<url><loc>...</loc></url>` entry in `/sitemap.xml`.
+Add `https://builtforthem.diy/projects/<slug>/` as a new `<url><loc>...</loc></url>` entry in `/sitemap.xml`.
 
 ## 5. Open a PR
 
@@ -49,7 +49,7 @@ Every internal link/asset reference on this site uses a root-relative path: `/as
 
 `vercel.json` sets `cleanUrls` and `trailingSlash`, so these resolve correctly once deployed. The one trade-off: root-relative paths do **not** resolve if you double-click an HTML file and open it via `file://` in a browser. To preview locally, run a local static server from the repo root (e.g. `npx serve .`) — or just rely on the Vercel PR preview deployment.
 
-The one exception is Open Graph / Twitter Card meta tags (`og:image`, `og:url`, etc.), which must be absolute URLs per spec, e.g. `https://built-for-them.vercel.app/assets/images/<slug>-hero.jpg`.
+The one exception is Open Graph / Twitter Card meta tags (`og:image`, `og:url`, etc.), which must be absolute URLs per spec, e.g. `https://builtforthem.diy/assets/images/<slug>-hero.jpg`.
 
 ## Shared header and footer
 
