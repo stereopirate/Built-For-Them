@@ -55,6 +55,16 @@
 - [ ] Export PDF
 - [ ] Upload as free download
 
+## Spin Board
+
+**Status:** 🟡 Prototype in progress
+
+**Purpose:** Floor-level spinning board for vestibular/sensory input, used with an adult turning the board and under therapist guidance. Original DIY design. Do not reference commercial product names on the site.
+
+**Built so far:** Solid pine board with rounded edges and two hand-hold cutouts; round pine spinner base underneath.
+
+**Public status:** Previewed on the homepage (`#next-project`) and on Instagram. No project page or `/projects/` card until the prototype is complete and the build guide is written.
+
 ## Future Originals
 
 Candidate projects not yet started (from the active project tracker):
